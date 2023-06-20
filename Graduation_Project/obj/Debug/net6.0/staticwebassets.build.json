@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b59Hg1nCkNYXW/YHZGvJ1XtA8EVwAIJndsUIIhXaRJ4=",
+  "Hash": "iIRXYI67j2Zqlfp0QUV0Z3+oE3Y8i5hiVGiva2pNWPc=",
   "Source": "Graduation_Project",
   "BasePath": "_content/Graduation_Project",
   "Mode": "Default",
@@ -5066,6 +5066,23 @@
       "OriginalItemSpec": "wwwroot\\Models\\9829b69e-2da2-47b9-8377-c248b1799dfc.jpeg"
     },
     {
+      "Identity": "E:\\Asp.net Projects\\Graduation_Project\\Graduation_Project\\wwwroot\\Models\\9907b434-1d4e-4f32-8540-bf87283810e5.jpeg",
+      "SourceId": "Graduation_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.net Projects\\Graduation_Project\\Graduation_Project\\wwwroot\\",
+      "BasePath": "_content/Graduation_Project",
+      "RelativePath": "Models/9907b434-1d4e-4f32-8540-bf87283810e5.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Models\\9907b434-1d4e-4f32-8540-bf87283810e5.jpeg"
+    },
+    {
       "Identity": "E:\\Asp.net Projects\\Graduation_Project\\Graduation_Project\\wwwroot\\Models\\aae683c1-c55f-45d4-aa52-84474898e5fb.jpeg",
       "SourceId": "Graduation_Project",
       "SourceType": "Discovered",
@@ -5914,6 +5931,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\9dd6e6dd-2cf7-4a4f-9048-c099946d68a4.pdf"
+    },
+    {
+      "Identity": "E:\\Asp.net Projects\\Graduation_Project\\Graduation_Project\\wwwroot\\Uploads\\b68922c1-120f-45c7-b7bd-1b2a26941258.pdf",
+      "SourceId": "Graduation_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.net Projects\\Graduation_Project\\Graduation_Project\\wwwroot\\",
+      "BasePath": "_content/Graduation_Project",
+      "RelativePath": "Uploads/b68922c1-120f-45c7-b7bd-1b2a26941258.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b68922c1-120f-45c7-b7bd-1b2a26941258.pdf"
     }
   ]
 }

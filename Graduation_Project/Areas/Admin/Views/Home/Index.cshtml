@@ -32,6 +32,131 @@
 <div class="content cards">
     <div class="container-fluid">
         <div class="row">
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h3>@Model.AllUsers</h3>
+
+                        <p>All Users</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <a asp-controller="User" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3>@Model.BlockedUsers</h3>
+
+                        <p>Blocked Users</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <a asp-controller="User" asp-action="BlockedUsers" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h3>@Model.Advices</h3>
+
+                        <p>Advices</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-file-medical-alt"></i>
+                    </div>
+                    <a asp-controller="Advice" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>@Model.Diseases</h3>
+
+                        <p>Diseases</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-disease"></i>
+                    </div>
+                    <a asp-controller="Disease" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-olive">
+                    <div class="inner">
+                        <h3>@Model.TypeOfDiseases</h3>
+
+                        <p>Type Of Diseases</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <a asp-controller="Disease" asp-action="DiseaseType" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-secondary">
+                    <div class="inner">
+                        <h3>@Model.Specializations</h3>
+
+                        <p>Specializations</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+                    <a asp-controller="Specialization" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-primary">
+                    <div class="inner">
+                        <h3>@Model.LungTransplants</h3>
+
+                        <p>Lung Transplants</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <a asp-controller="LungTransplant" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box" style="background-color: #FF7F50; color: white;">
+                    <div class="inner">
+                        <h3>@Model.Contacts</h3>
+
+                        <p>Contacts</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <a asp-controller="Contact" asp-action="Index" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+
+        <div class="row">
             <div class="col-xl-4 col-md-6 xl-50">
                 <div class="card order-graph sales-carousel">
                     <div class="card-header">

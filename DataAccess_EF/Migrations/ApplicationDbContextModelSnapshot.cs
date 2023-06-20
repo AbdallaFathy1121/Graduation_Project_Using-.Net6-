@@ -240,6 +240,12 @@ namespace DataAccess_EF.Migrations
                     b.Property<int>("Phone")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("SentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Subject")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

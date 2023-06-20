@@ -5,6 +5,7 @@ using Domain.ViewModels;
 using Hangfire;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Utility.Consts;
 
 namespace Graduation_Project.Areas.Admin.Controllers
@@ -31,6 +32,14 @@ namespace Graduation_Project.Areas.Admin.Controllers
             DashboardPageVM model = new();
             model.RegistrationsRequests = await _unitOfWork.TdRegistrationRequests.RegistrationRequestsAsync();
             model.AdvicesRequests = await _unitOfWork.TbAdviceRequests.AdviceRequestsAsync();
+            model.AllUsers = await _userService.GetAllUsers().CountAsync();
+            model.BlockedUsers = await _userService.GetBlockedUsers().CountAsync();
+            model.Advices = await _unitOfWork.TbAdvices.CountAsync();
+            model.Diseases = await _unitOfWork.TbDiseases.CountAsync();
+            model.TypeOfDiseases = await _unitOfWork.TbDiseaseTypes.CountAsync();
+            model.Specializations = await _unitOfWork.TbSpecialization.CountAsync();
+            model.Contacts = await _unitOfWork.TbContacts.CountAsync();
+            model.LungTransplants = await _unitOfWork.TbLungTransplant.CountAsync();
 
             return View(model);
         }

@@ -14,5 +14,7 @@ namespace Domain.Models
         public string Subject { get; set; }
         public int Phone { get; set; }
         public string Message { get; set; }
+        public bool Status { get; set; }
+        public DateTime SentDate { get; set; } = DateTime.Now;
     }
 }

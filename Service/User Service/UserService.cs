@@ -63,11 +63,10 @@ namespace Domain.Services
         {
             try
             {
-                user.EmailConfirmed = true;
                 var createUser = await _userManager.CreateAsync(user, password);
                 if (createUser.Succeeded)
                 {
-                    return OperationResult.Succeeded("Register Successfully!");
+                    return OperationResult.Succeeded("Register Successfully!, Please Confirm your Email");
                 }
                 else
                 {
